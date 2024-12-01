@@ -12,7 +12,7 @@ const DeleteUserPage = () => {
 
     const handleDeleteUser = async () => {
         try {
-            const response = await fetch('http://localhost:8080/users', {
+            const response = await fetch('https://tech-mail.site/users', {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',

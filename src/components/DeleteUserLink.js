@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const DeleteUserLink = ({ email, token }) => {
     return (
         <Link
-            to={`http://localhost:8080/users?email=${encodeURIComponent(email)}&token=${encodeURIComponent(token)}`}
+            to={`https://tech-mail.site/users?email=${encodeURIComponent(email)}&token=${encodeURIComponent(token)}`}
             style={{ color: '#6B7280', textDecoration: 'none' }}
         >
             구독 해지

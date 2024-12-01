@@ -12,7 +12,7 @@ const QuestionDetail = () => {
     useEffect(() => {
         const fetchQuestionDetail = async () => {
             try {
-                const response = await axios.get(`http://localhost:8080/question/${id}`);
+                const response = await axios.get(`https://tech-mail.site/question/${id}`);
                 setQuestion(response.data.data);
                 setLoading(false);
             } catch (err) {
